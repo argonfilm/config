@@ -1,0 +1,88 @@
+[global_config]
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  inactive_color_offset = 1.0
+  title_font = MonteCarlo Medium 8
+  title_inactive_bg_color = "#888888"
+  title_inactive_fg_color = "#a2a2a2"
+  title_transmit_bg_color = "#555555"
+  title_transmit_fg_color = "#a2a2a2"
+  title_use_system_font = False
+[keybindings]
+  broadcast_all = None
+  broadcast_group = None
+  broadcast_off = None
+  close_term = None
+  close_window = None
+  cycle_next = None
+  cycle_prev = None
+  edit_tab_title = None
+  edit_terminal_title = None
+  edit_window_title = None
+  go_down = None
+  go_left = None
+  go_next = None
+  go_prev = None
+  go_right = None
+  go_up = None
+  group_all = None
+  group_all_toggle = None
+  group_tab = None
+  group_tab_toggle = None
+  help = None
+  hide_window = None
+  insert_number = None
+  insert_padded = None
+  layout_launcher = None
+  move_tab_left = None
+  move_tab_right = None
+  new_tab = None
+  new_terminator = None
+  new_window = None
+  next_profile = None
+  next_tab = None
+  prev_tab = None
+  previous_profile = None
+  reset = None
+  reset_clear = None
+  resize_down = None
+  resize_left = None
+  resize_right = None
+  resize_up = None
+  rotate_ccw = None
+  rotate_cw = None
+  scaled_zoom = None
+  search = None
+  split_horiz = None
+  split_vert = None
+  toggle_scrollbar = None
+  toggle_zoom = None
+  ungroup_all = None
+  ungroup_tab = None
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    allow_bold = False
+    background_color = "#0f0a1a"
+    background_darkness = 0.8
+    backspace_binding = automatic
+    cursor_color = "#d0c4ce"
+    cursor_shape = underline
+    delete_binding = automatic
+    font = MonteCarlo Medium 8
+    foreground_color = "#fab58e"
+    palette = "#0f0a1a:#3f294a:#683248:#8f2b34:#943946:#a44952:#db5855:#fab58e:#554663:#3f294a:#683248:#8f2b34:#943946:#a44952:#db5855:#fab58e"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
+  [[New Profile]]
+    cursor_color = "#aaaaaa"
